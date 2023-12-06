@@ -1,0 +1,9 @@
+correo: masksupmodular031@gmail.com
+passw: MasksUpModular031
+
+sitioweb: MasksUpModularDB
+pass: x4CVtgyY&t!Us4pAzH@z
+
+name: masksupdb / id20458499_masksupdb
+user: root / id20458499_root
+pw: MasksUp_Modular031

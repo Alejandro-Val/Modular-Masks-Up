@@ -1,0 +1,59 @@
+<?php
+    //Datos de conexión a la base de datos
+    $servername = "localhost";
+    $user = "id20458499_root";
+    $pass = "MasksUp_Modular031";
+    $dbname = "id20458499_masksupdb";
+
+    $username = $_POST["username"];
+
+    //Obtener los datos enviados desde Unity
+    if(isset($_POST["username"])){
+
+        //Conectar a la base de datos
+        $conn = mysqli_connect($servername, $user, $pass, $dbname);
+
+        //Verificar si la conexión fue exitosa
+        if(!$conn){
+            die("Error al conectarse a la base de datos: " . mysqli_connect_error());
+        }
+
+        //Consultar la tabla de usuarios para verificar si el usuario existe
+        $query = "SELECT * FROM user WHERE BINARY username='".$username."'";
+        $result = mysqli_query($conn, $query);
+
+        //Verificar si se encontró un registro en la tabla de usuarios
+        if(mysqli_num_rows($result) > 0){
+            //El usuario existe
+            $row = mysqli_fetch_assoc($result);
+            $userId = $row["id"];
+
+            //Buscar los logros del usuario en la tabla de achievements
+            $query = "SELECT achievement1, achievement2, achievement3, achievement4, achievement5, achievement6, achievement7, achievement8, achievement9, achievement10, achievement11 FROM achievements WHERE id_user = '".$userId."'";
+            $result = mysqli_query($conn, $query);
+
+            //Verificar si se encontró un registro en la tabla de achievements
+            if(mysqli_num_rows($result) > 0){
+                //Recuperar los valores de los logros del usuario
+                $row = mysqli_fetch_assoc($result);
+                $achievements = array_values($row);
+
+                //Retornar los valores de los logros como un arreglo JSON
+                echo json_encode($achievements);
+            }else{
+                //No se encontraron registros de logros para el usuario
+                echo "No se encontraron logros para el usuario";
+            }
+        }else{
+            //El usuario no existe
+            echo "El nombre de jugador o la contraseña son incorrectos, por favor vuelve a intentarlo";
+        }
+
+        //Cerrar la conexión a la base de datos
+        mysqli_close($conn);
+
+    }
+    else{
+        echo "Error: los campos username y password son requeridos";
+    }
+?>

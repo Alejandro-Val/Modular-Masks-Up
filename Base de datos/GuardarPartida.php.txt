@@ -1,0 +1,56 @@
+<?php
+    //Datos de conexión a la base de datos
+    $servername = "localhost";
+    $user = "id20458499_root";
+    $pass = "MasksUp_Modular031";
+    $dbname = "id20458499_masksupdb";
+    
+    $username = $_POST["username"];
+    $diagnosis = $_POST["diagnosis"];
+    $playedTimeString = $_POST["horas"];
+    $playedTime = (float) $playedTimeString;
+    
+    $achievement1 = $_POST["achievement1"];
+    $achievement2 = $_POST["achievement2"];
+    $achievement3 = $_POST["achievement3"];
+    $achievement4 = $_POST["achievement4"];
+    $achievement5 = $_POST["achievement5"];
+    $achievement6 = $_POST["achievement6"];
+    $achievement7 = $_POST["achievement7"];
+    $achievement8 = $_POST["achievement8"];
+    $achievement9 = $_POST["achievement9"];
+    $achievement10 = $_POST["achievement10"];
+    $achievement11 = $_POST["achievement11"];
+    
+    //Obtener los datos enviados desde Unity
+    if(isset($_POST["username"])){
+    
+        //Conectar a la base de datos
+        $conn = mysqli_connect($servername, $user, $pass, $dbname);
+    
+        //Verificar si la conexión fue exitosa
+        if(!$conn){
+            die("Error al conectarse a la base de datos: " . mysqli_connect_error());
+        }
+    
+        $query  = "UPDATE user SET diagnosis='".$diagnosis."', playedTime='$playedTime' WHERE BINARY username='".$username."'";
+        $result = mysqli_query($conn, $query);
+        
+        $query2 = "SELECT id FROM user WHERE BINARY username='".$username."'";
+        $result2 = mysqli_query($conn, $query2);
+        $row = mysqli_fetch_assoc($result2);
+        $user_id = $row["id"];
+        
+        $query3 = "UPDATE achievements SET achievement1='$achievement1', achievement2='$achievement2', achievement3='$achievement3', achievement4='$achievement4', achievement5='$achievement5', achievement6='$achievement6', achievement7='$achievement7', achievement8='$achievement8', achievement9='$achievement9', achievement10='$achievement10', achievement11='$achievement11' WHERE id_user='$user_id'";
+        $result3 = mysqli_query($conn, $query3);
+    
+        //Cerrar la conexión a la base de datos
+        mysqli_close($conn);
+        
+        echo "Guardado";
+        
+    }
+    else{
+        echo "Error: Llena todos los campos";
+    }
+?>

@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu_Principal.unity
+    guid: 82e34aabd2b4d1945b3f0eb2c162fff1
+  - enabled: 1
+    path: Assets/Scenes/DIa1/BatallaFinalDia1.unity
+    guid: bcc00af22fb978a4483eb75ce746a6c1
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario0CuartoDia1.unity
+    guid: 89185bc558c178945a6e5101044150d4
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario1CasaDia1.unity
+    guid: 4336fe3aa65018d40b6bd6749c53c805
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario2CalleDia1.unity
+    guid: d8a9fb54caf35464bae3f81959aaabdb
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario3EscuelaEntradaDia1.unity
+    guid: 021a8339e07002943b66994d404074bc
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario4EscuelaPrimeraClaseDia1.unity
+    guid: 7353b9b8340038b468732864b3782c02
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario5EscuelaSegundaClaseDia1.unity
+    guid: a2e11bc747e12fb4d9129b9d0aa7918b
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario6EscuelaSalida de ClaseDia1.unity
+    guid: 7c280a3c195e01b4997a945aca70c3b3
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario7CalleNocheDia1.unity
+    guid: 1e3bf1240edb0204aa22c43732910b66
+  - enabled: 1
+    path: Assets/Scenes/DIa1/Escenario8CuartoDia1Final.unity
+    guid: 3f81804719ba8464197dc9a2dd075aef
+  - enabled: 1
+    path: Assets/Scenes/DIa2/BatallaFinalDia2.unity
+    guid: 5bd9052c4f5b53a4ca082f9117c0d407
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario0CuartoDia2.unity
+    guid: f005f2d3bc003c949b4475116571d825
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario1CasaDia2.unity
+    guid: 2c0f9ec3814a1304383d49669f1f7d84
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario2CalleDia2.unity
+    guid: 805423d6869b99148bc9485915df1a5c
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario3EscuelaEntradaDia2.unity
+    guid: 5c370a0bbdceea344b2618710e350e09
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario4EscuelaPrimeraClaseDia2.unity
+    guid: 433af0bb7f68b9b4396d7eb4dd0949b9
+  - enabled: 1
+    path: Assets/Scenes/DIa2/Escenario5EscuelaSegundaClaseDia2.unity
+    guid: 9962325404639f946b3f3b35889760c9
+  - enabled: 1
+    path: Assets/Scenes/DIa3/BatallaFinalDia3.unity
+    guid: d44110f5eb95d9245a0e77b07f03c027
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario0CuartoDia3.unity
+    guid: d50b18431c6b3c14281311749ecda2ae
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario1CasaDia3.unity
+    guid: 575185a2bf1d443428152d0160ea3771
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario2CalleDia3.unity
+    guid: 5220dc7aeeaa477408d726671088c290
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario3EscuelaEntradaDia3.unity
+    guid: f85d21fff43667940bd7490f2e6fd565
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario4EscuelaPrimeraClaseDia3.unity
+    guid: 3fb4f61809ca06140a9e89e81cd19b50
+  - enabled: 1
+    path: Assets/Scenes/DIa3/Escenario5EscuelaSegundaClaseDia3.unity
+    guid: 5b6db0d9326fa3d4bb5c265c33c5682f
+  - enabled: 1
+    path: Assets/Scenes/DIa4/BatallaFinalDia4.unity
+    guid: 85d98aa4cc01cc345ad7ab1a4320e0f4
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario0CuartoDia4.unity
+    guid: ad879ab3849eb92439ecddb19829ad37
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario1CasaDia4.unity
+    guid: 8bd70b1ab0a0b494990f56b096922d7a
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario2CalleDia4.unity
+    guid: 5b93eab9360879c4fa61d63c72d8b1bb
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario3EscuelaEntradaDia4.unity
+    guid: 15a0324b7e2564e49a99dadd249065c1
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario4EscuelaPrimeraClaseDia4.unity
+    guid: e7d53a27a4e28814fbb5fc9a7c8e7628
+  - enabled: 1
+    path: Assets/Scenes/DIa4/Escenario5EscuelaSegundaClaseDia4.unity
+    guid: 3b8c4e6235f621946974cbcb32f5f413
+  - enabled: 1
+    path: Assets/Scenes/DIa5/BatallaFinalDia5.unity
+    guid: e52ac7cdc1ba2e642b4bb3ae0e996c05
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario0CuartoDia5.unity
+    guid: 63c2285a125c8434b8310c10c3ec63a7
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario1CasaDia5.unity
+    guid: 61d61d685938fe4409ddb833f17db601
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario2CalleDia5.unity
+    guid: c7d30679b83a8b540ad982ee325be0bf
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario3EscuelaEntradaDia5.unity
+    guid: 997470c4f449fb04291d5591b5d7bf26
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario4EscuelaPrimeraClaseDia5.unity
+    guid: c1496c95676c07d43bcb767003da06be
+  - enabled: 1
+    path: Assets/Scenes/DIa5/Escenario5EscuelaSegundaClaseDia5.unity
+    guid: 831159dc45a9a6041931798a19a51be3
+  - enabled: 1
+    path: Assets/Scenes/DIa6/BatallaFinalDia6.unity
+    guid: df250b0219e71e24fa71fbc77eed34b5
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario0CuartoDia6.unity
+    guid: 7e2e56119427155419795789c9afde77
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario1CasaDia6.unity
+    guid: 7e13eac042cbd9c4ab2cebeab5c8214c
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario2CalleDia6.unity
+    guid: 107cf29c49be51a47bb8f71f17997256
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario3EscuelaEntradaDia6.unity
+    guid: ceed3d9a453138c4399cf628a008c5d0
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario4EscuelaPrimeraClaseDia6.unity
+    guid: 3ff92f4527a0a4747b2e0409b987c731
+  - enabled: 1
+    path: Assets/Scenes/DIa6/Escenario5EscuelaSegundaClaseDia6.unity
+    guid: 1f3041ebd37e8544a89208a863a30fc1
+  - enabled: 1
+    path: Assets/Scenes/DIa7/BatallaFinalDia7.unity
+    guid: e2fdfd6b665a5a94c8bab44e5bc2df4a
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario0CuartoDia7.unity
+    guid: 01c821bd9106f824d86d7bb9e632ed1e
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario1CasaDia7.unity
+    guid: 833f6a67372936749b11bd7d00cc6c8a
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario2CalleDia7.unity
+    guid: 24bad0e6bf73e2245ade3102382e8c26
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario3EscuelaEntradaDia7.unity
+    guid: 1320c55fd294679428cb8dafa4a5792b
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario4EscuelaPrimeraClaseDia7.unity
+    guid: 49925de7bd9285144920def6037b1b98
+  - enabled: 1
+    path: Assets/Scenes/DIa7/Escenario5EscuelaSegundaClaseDia7.unity
+    guid: a9f10624bc343144993de94e45ff34f4
+  - enabled: 1
+    path: Assets/Scenes/DIa8/BatallaFinalDia8.unity
+    guid: e15012ac374953c40bee690ca470c2c5
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario0CuartoDia8.unity
+    guid: 6a72fbdf7f48f3049a282dfc3c41d063
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario1CasaDia8.unity
+    guid: 08903ab6dcec45342bb8a8b985eea22d
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario2CalleDia8.unity
+    guid: 32c3725064a1a3c4bb2afeff29523832
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario3EscuelaEntradaDia8.unity
+    guid: da26a07a9c0f9e843bb4aa60d0d34201
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario4EscuelaPrimeraClaseDia8.unity
+    guid: e1e42916786b7e947aaf0939ee5ad0a1
+  - enabled: 1
+    path: Assets/Scenes/DIa8/Escenario5EscuelaSegundaClaseDia8.unity
+    guid: 3e94dab0c6c5a904aa0653049aec8499
+  - enabled: 1
+    path: Assets/Scenes/DIa9/BatallaFinalDia9.unity
+    guid: 66901050d27c62f4a882721967523267
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario0CuartoDia9.unity
+    guid: 3a191d5b574e8574abe17e8c2479cacf
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario1CasaDia9.unity
+    guid: cf5ba3681c1ef8e40b79c7800c0aea79
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario2CalleDia9.unity
+    guid: 1d7b17711e0441f469b11ea5a8ec0287
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario3EscuelaEntradaDia9.unity
+    guid: 2c7a56480e3576545ac71169c11de302
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario4EscuelaPrimeraClaseDia9.unity
+    guid: cb8cdd76f47e64a4dac07148131fbd3c
+  - enabled: 1
+    path: Assets/Scenes/DIa9/Escenario5EscuelaSegundaClaseDia9.unity
+    guid: 967e7b097368518448c3430534ea4011
+  - enabled: 1
+    path: Assets/Scenes/DIa10/BatallaFinalDia10.unity
+    guid: d39b46eaa32abfe43b2bea5623e941ce
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario0CuartoDia10.unity
+    guid: ce8d17549b1d8a2458a011edde1fefb5
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario1CasaDia10.unity
+    guid: 5c320ef6c55031d4d8b4cdcb185e45b0
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario2CalleDia10.unity
+    guid: 55b58846fc3ce3440934955fd3d0d55f
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario3EscuelaEntradaDia10.unity
+    guid: dca05435e331aef47ae36f64fd41da05
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario4EscuelaPrimeraClaseDia10.unity
+    guid: 1e25317ade0ca6d4c9e9af4680ac23a3
+  - enabled: 1
+    path: Assets/Scenes/DIa10/Escenario5EscuelaSegundaClaseDia10.unity
+    guid: c77b28a8f9cbd7f448661c49c183ac85
+  - enabled: 1
+    path: Assets/Scenes/DIa11/BatallaFinalDia11.unity
+    guid: a3a9c8bd0482e6f4aa066a27441dc0c0
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario0CuartoDia11.unity
+    guid: a21ed6d5d4f0e614e8b6c358a62d416e
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario1CasaDia11.unity
+    guid: d327cf1229048df49b2edaaec92761a4
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario2CalleDia11.unity
+    guid: b2e0e8b1c84368148a8ae9212f08dd05
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario3EscuelaEntradaDia11.unity
+    guid: 1f89bb35813a2e54c8cd3ea3012c1795
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario4EscuelaPrimeraClaseDia11.unity
+    guid: 4234903db9f30414da95fd29b488f4ed
+  - enabled: 1
+    path: Assets/Scenes/DIa11/Escenario5EscuelaSegundaClaseDia11.unity
+    guid: 3a5d6450d50252f47903290b7949eebc
+  m_configObjects: {}

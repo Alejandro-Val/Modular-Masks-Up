@@ -1,0 +1,12 @@
+El desarrollo del juego consta de 
+Implementacion de GitHub
+Creacion de personajes
+Creacion de escenarios
+Desarrollo de Guion
+Programacion de mecanicas
+Implementacion de base de datos
+Desarrollo de Menus
+Implementacion de algoritmos
+Beta testing
+Lanzamiento
+Analisis de jugadores

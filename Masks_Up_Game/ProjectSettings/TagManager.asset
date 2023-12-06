@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fish
+  - tp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Personaje
+  - Water
+  - UI
+  - Static
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Suelo
+    uniqueID: 1819834781
+    locked: 0
+  - name: Muebles suelo
+    uniqueID: 3266663139
+    locked: 0
+  - name: Sobre muebles
+    uniqueID: 1429151907
+    locked: 0
+  - name: Paredes detras player
+    uniqueID: 898959213
+    locked: 0
+  - name: Objetos pared
+    uniqueID: 3635198655
+    locked: 0
+  - name: Muebles frente pared
+    uniqueID: 30987843
+    locked: 0
+  - name: Edificios detras player
+    uniqueID: 870367859
+    locked: 0
+  - name: Objetos frente edificios
+    uniqueID: 1001543777
+    locked: 0
+  - name: EscalerasAbajoPlayer
+    uniqueID: 4014610453
+    locked: 0
+  - name: NPCs
+    uniqueID: 942781313
+    locked: 0
+  - name: Player
+    uniqueID: 4284930599
+    locked: 0
+  - name: Muebles frente player
+    uniqueID: 4125421681
+    locked: 0
+  - name: Paredes frente player
+    uniqueID: 3246321183
+    locked: 0
+  - name: Edificios frente player
+    uniqueID: 3988545185
+    locked: 0
+  - name: Objetos sobre edificios
+    uniqueID: 2108126955
+    locked: 0
+  - name: EscalerasArribaPlayer
+    uniqueID: 2701608349
+    locked: 0
